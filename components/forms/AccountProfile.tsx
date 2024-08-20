@@ -89,7 +89,6 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
         const imageDataUrl = event.target?.result?.toString() || "";
         fieldChange(imageDataUrl);
       };
-
       fileReader.readAsDataURL(file);
     }
   };
